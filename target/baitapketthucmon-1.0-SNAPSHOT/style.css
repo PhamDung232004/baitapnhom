@@ -1,0 +1,299 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Aug 16, 2024, 8:56:56 PM
+    Author     : admin
+*/
+
+
+/* Header */
+
+body {
+  background-color: #F2F2F2;
+}
+header {
+  background-color: #B64F26;
+}
+.nav-link > i {
+  margin-right: 5px;
+}
+
+.container-fluid a {
+  color: #fff;
+}
+
+.container-fluid a:hover {
+  opacity: 0.8;
+}
+
+/* Form Sign Up & Login */
+.container-SG-LG {
+  position: relative;
+  z-index: 1;
+  float: right;
+}
+
+.FormSG_LG {
+  position: absolute;
+  float: right;
+  width: 400px;
+  background-color: #fff;
+  right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px #000;
+
+}
+
+
+.form-group {
+  margin: 10px 20px;
+}
+
+/* Category */
+.list-group {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  }
+
+  .list-group > li:hover {
+    cursor: pointer;
+    color: #B64F26;
+  }
+
+
+  /* Search History */
+  #searchHistory {
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: none;
+  }
+
+  #historyList li:hover {
+      background-color: #f5f4f4;
+      color: #000;
+  }
+
+  
+  
+  /* Product */
+
+  .h4 {
+    margin-top: 5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+  }
+  .product-card {
+    background-color: #fff;
+    margin: 10px 0;
+    box-shadow: 0 1px 5px #e0e0e0;
+    transition: transform linear 0.1s; 
+    will-change: transform;
+  }
+
+  .product-card:hover {
+    transform: translateY(-1px);
+    cursor: pointer;
+  }
+
+  .card-title {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    font-size: 12px;
+    line-height: 16px;
+    height: 32px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    margin: 2px 0 2px 0;
+  }
+
+  .price {
+    display: flex;
+    justify-content: space-between;
+  }
+  .price-new {
+    color: #0288D1;
+    font-weight: 500;
+  }
+
+  .btn.btn-primary {
+    display: block;
+    background-color: #EE4D2D;
+    border-color: #EE4D2D;
+  }
+
+  /* Slide 2*/
+.carousel-indicators li {
+  background-color: #ccc;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.carousel-indicators .active {
+  background-color: #333;
+}
+
+/* Cart */
+.cart {
+  font-size: 25px;
+  background-color: #fff;
+}
+
+.cart h5 {
+  padding: 5px 10px;
+}
+
+
+.cart-icon {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  color: #EE4D2D;
+
+}
+
+.cart-icon:hover{
+  opacity: 0.9;
+}
+
+.list-group-item-cart-link {
+  padding: 10px 5px;
+  text-decoration: none;
+  display: flex;
+}
+
+.list-group-item-cart-img {
+  width: 40px;
+  object-fit: contain;
+}
+
+.list-group-item-cart-info {
+  margin-left: 10px;
+}
+.list-group-item-cart-name {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.list-group-item-cart-desciotion {
+    display: block;
+    font-size: 10px;
+    line-height: 10px;
+    color: #756F6E;
+    padding-top: 3px;
+}
+.list-group-item-cart-price {
+  font-size: 14px;
+  font-weight: 500;
+  color: #098BD2;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2px;
+}
+
+.list-group-item-cart-price-buy {
+  color: #fff;
+  background-color: #EE4D2D;
+  border: 1px;
+  border-radius: 5px;
+}
+
+
+/* QR */
+.qr-code {
+  background-image: url(./img/backgroundqr.png);
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+}
+.qr-code-img {
+  border-radius: 5px;
+}
+.qr-code-title {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+
+
+/* Footer */
+footer {
+    border-top: 4px solid  #B84F26;
+    padding-top: 20px;
+    background-color: #fff;
+}
+h6 {
+
+  text-transform: uppercase;
+
+}
+.list-group > a{
+    color: #000;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 400;
+}
+
+.list-group__link > i {
+  font-size: 15px;
+}
+
+
+.footer__download {
+  display: flex;
+}
+.footer__download-qr {
+  width: 80px;
+  object-fit: contain;
+  border: 1px solid #000;
+}
+
+.footer__download-apps {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__download-app-link {
+  text-decoration: none;
+
+
+}
+
+.footer__download-app-img {
+  height: 20px;
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  padding: 24px 0;
+  background-color: #f5f5f5;
+}
+
+.footer__text {
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
+  color: #737373;
+}
+

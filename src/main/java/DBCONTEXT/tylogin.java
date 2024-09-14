@@ -33,10 +33,10 @@ public class tylogin extends HttpServlet {
     @Override
     public void init() throws ServletException {
         // Khởi tạo người dùng mẫu
-        users.put("VuHoangLong", "123");
-        users.put("PhamVanTienDung", "123");
         users.put("DangQuocTrung", "123");
-        users.put("HanQuangHieu", "123");
+        users.put("NguyenDoTuanNghia", "123");
+        users.put("PhamVanDung", "123");
+        users.put("NguyenNgocNhatMinh", "123");
         
     }
     
